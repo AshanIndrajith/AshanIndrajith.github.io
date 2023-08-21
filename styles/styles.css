@@ -417,7 +417,8 @@ section {
 }
 .timeline .timeline-item {
   position: relative;
-  padding-left: 3rem;
+  padding-left: 4rem;
+ 
   border-left: 1px solid var(--color-grey-5);
 }
 .timeline .timeline-item .tl-icon {
