@@ -598,3 +598,15 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .skills-row {
+    flex: 0 0 100%; /* Full width for smaller screens */
+  }
+
+  .skill-card {
+    margin-right: 20px; /* Reduce margin for better spacing on smaller screens */
+  }
+}
