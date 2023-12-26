@@ -158,7 +158,7 @@
   }
   .portfolios .portfolio-item img {
     width: 100%;
-    height: 300px;
+    height: 80%;
     object-fit: cover;
     border-radius: 15px;
   }
@@ -611,5 +611,45 @@
 
   .skill-card {
     margin-right: 20px; /* Reduce margin for better spacing on smaller screens */
+  }
+}
+
+
+
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .portfolios {
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  .portfolio-item {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  /* Adjust styles for text and images */
+  .container .main-title h2 {
+    font-size: 24px; /* Adjust the font size for smaller screens */
+  }
+
+  .container .port-text {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+    margin-bottom: 15px; /* Adjust margin for better spacing */
+  }
+
+  .container .portfolios {
+    padding: 10px; /* Adjust padding for better spacing on smaller screens */
+  }
+
+  .portfolios .image img {
+    border-radius: 5px; /* Adjust border-radius for smaller screens */
+  }
+
+  .portfolios .portfolio-item img {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 15px;
   }
 }
