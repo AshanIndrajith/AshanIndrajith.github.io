@@ -9702,3 +9702,127 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for tablets */
+@media only screen and (max-width: 768px) {
+  .resume-wrap {
+    padding: 20px;
+  }
+
+  .resume-wrap .date {
+    font-size: 18px;
+  }
+
+  .resume-wrap h2 {
+    font-size: 24px;
+  }
+
+  .resume-wrap .position {
+    font-size: 10px;
+  }
+
+  .resume-wrap .head-topic {
+    font-size: 18px;
+  }
+
+  .resume-wrap .certificate {
+    font-size: 14px;
+  }
+}
+
+/* Media Query for mobile phones */
+@media only screen and (max-width: 480px) {
+  .resume-wrap {
+    padding: 15px;
+  }
+
+  .resume-wrap .date {
+    font-size: 16px;
+  }
+
+  .resume-wrap h2 {
+    font-size: 20px;
+  }
+
+  .resume-wrap .position {
+    font-size: 8px;
+  }
+
+  .resume-wrap .head-topic {
+    font-size: 16px;
+  }
+
+  .resume-wrap .certificate {
+    font-size: 12px;
+  }
+}
+
+
+
+
+/* Larger screens */
+@media only screen and (min-width: 992px) {
+  .ftco-about .img-about {
+    width: 100%;
+  }
+
+  .ftco-about .col-md-6.col-lg-7 {
+    padding-left: 5%;
+  }
+}
+
+/* Medium screens */
+@media only screen and (max-width: 991px) {
+  .ftco-about .img-about {
+    width: 100%;
+  }
+
+  .ftco-about .col-md-6.col-lg-7 {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+}
+
+/* Small screens */
+@media only screen and (max-width: 767px) {
+  .ftco-about .img-about {
+    width: 100%;
+  }
+
+  .ftco-about .col-md-6.col-lg-5 {
+    order: 2;
+  }
+
+  .ftco-about .col-md-6.col-lg-7 {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+}
+
+/* Adjust styles for smaller devices if needed */
+@media only screen and (max-width: 480px) {
+  .ftco-about .img-about .img {
+    background-position: center;
+  }
+
+  .ftco-about ul.about-info li span {
+    width: 100%;
+  }
+}
