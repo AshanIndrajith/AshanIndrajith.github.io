@@ -206,7 +206,7 @@
     margin: 0 1rem;
   }
   .portfolios .portfolio-item .hover-items .icons .icon:hover {
-    background-color: #ffbd39;
+    background-color: #000000;
   }
   .portfolios .portfolio-item .hover-items .icons .icon:hover i {
     color: #ffbd39;
