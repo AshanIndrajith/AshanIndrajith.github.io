@@ -9719,7 +9719,7 @@ textarea.form-control {
 
 
 
-
+/* resume and certificate */
 /* Media Query for tablets */
 @media only screen and (max-width: 768px) {
   .resume-wrap {
@@ -9746,6 +9746,8 @@ textarea.form-control {
     font-size: 14px;
   }
 }
+
+
 
 /* Media Query for mobile phones */
 @media only screen and (max-width: 480px) {
